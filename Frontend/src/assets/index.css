@@ -1,0 +1,24 @@
+@keyframes border-animation {
+  from {
+    border-radius: 0px;
+  } to {
+    border-radius: 60px;
+  }
+}
+
+@keyframes button-animation {
+  from {
+    background-color: white;
+  } to {
+    background-color: #b7e4c7;
+  }
+}
+
+#container-principal {
+  animation: 3s ease-in 1s infinite alternate border-animation;
+}
+
+#button-anim {
+  animation: 3s ease-in 1s infinite alternate button-animation;
+}
+
